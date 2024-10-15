@@ -1,221 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Panel Website</title>
+    <title>NC X REGz X64</></title>
     <style>
         body {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: Arial, sans-serif;
-            background-color: #191919;  /* Updated background color */
-            color: #ffffff; /* Updated text color */
-            margin: 0;
-            padding: 0;
-        }
-        .header {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .header h1 {
-            font-size: 36px; /* Large text */
-            margin: 0;
-        }
-        .header p {
-            font-size: 18px; /* Normal text size */
-            margin: 0;
-        }
-        .container {
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-            margin-bottom: 20px;
-        }
-        .yt-video {
-            width: 45%;
-            height: 300px;
-            margin: 20px;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-        .video-name {
-            text-align: center;
-            font-size: 18px;
-            font-weight: bold;
-            margin-top: 10px;
-            color: #ffffff;  /* Ensure video title is readable */
-        }
-        .dropdown-container {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            margin: 20px 0;
-        }
-        .dropdown {
-            width: 300px;
-            height: 30px;
-            background-color: #333333;  /* Darker background for dropdown */
+            background-color: #121212;
             color: #ffffff;
-            border: 1px solid #555555;  /* Subtle border for dropdown */
-            border-radius: 5px;
-        }
-        .download-button {
-            width: 550px;
-            height: 50px;
-            margin-top: 20px;
+            font-family: Arial, sans-serif;
             text-align: center;
-            line-height: 50px;
-            background-color: #00aeff;
-            color: #000000;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 16px;
-            border: none;
-        }
-        .button-group {
-            display: flex;
-            justify-content: space-between;
-            width: 80%;
-            margin-top: 20px;
+            padding-top: 50px;
         }
         .button {
-            width: 30%;
-            height: 50px;
-            text-align: center;
-            line-height: 50px;
-            background-color: #00ffd5;
-            color: #000000;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-            font-size: 16px;
+            background-color: #333333;
+            color: #ffffff;
             border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
         }
-
-        /* Media Query for Mobile View */
-        @media (max-width: 768px) {
-            .container {
-                flex-direction: column;
-                align-items: center;
-            }
-            .yt-video {
-                width: 100%;
-                height: 200px;
-                margin: 10px 0;
-            }
-            .video-name {
-                font-size: 16px;
-            }
-            .download-button, .button {
-                width: 100%;  /* Adjust button width */
-                font-size: 14px;
-            }
-            .dropdown {
-                width: 100%; /* Adjust dropdown width */
-            }
-            .button-group {
-                justify-content: space-between;
-                flex-wrap: nowrap;  /* Ensure buttons stay in a row */
-                width: 100%;
-            }
+		
+        .button-social {
+            background-color: #191919;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+			margin-right:10px;
         }
     </style>
-</head>
-<body>
-    <div class="header">
-        <h1>DOWNLOAD NC X REGz v7.0</h1>
-        
-    </div>
-
-    <div class="container">
-        <div class="yt-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OhscEa6_FH4?si=QJ07Nl3j9Xgpm1QJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="video-name">C++ Tutorial</div> <!-- Video Title -->
-        </div>
-        <div class="yt-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/OhsckukukukuEa6_FH4?si=QJ07Nl3j9Xgpm1QJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <div class="video-name">C# Tutorial</div> <!-- Video Title -->
-        </div>
-    </div>
-
-    <div class="dropdown-container">
-        <select id="panelSelect" class="dropdown">
-            <option value="none">None</option>
-            <option value="premium">Premium Panel</option>
-            <option value="cpp">C++ Panel</option>
-            <option value="csharp">C# Panel</option>
-        </select>
-    </div>
-
-    <a href="#" target="_blank" class="download-button" id="downloadButton">Download</a>
-
-    <div class="button-group">
-        <a href="https://www.mediafire.com/file/f9279gxzxn2tah2/NC_X_REGz_MSI.rar/file" target="_blank" class="button" id="emulatorButton">NC X REGz EMULATOR</a>
-        <a href="https://www.mediafire.com/file/ofjxhehi7ymom0w/NC+X+REGz+FREE+FIRE.apk/file" target="_blank" class="button" id="freeFireButton">NC X REGz FREE FIRE</a>
-        <a href="https://www.mediafire.com/file/zei569jrx3qke5f/NC_X_REGz_RECOMMENDED_FILE.rar/file" target="_blank" class="button" id="recommendedFileButton">RECOMMENDED FILE</a>
-    </div>
-
-    <script>
-        // Function to show alert message
-        function showError() {
-            alert('Premium Panel is Not Released. Please Wait a Few Days.');
+    <script type="text/javascript">
+        function redirectToPanel() {
+            window.location.href = "https://download2285.mediafire.com/3nm3hw52adygsyG0XATqB8Mo1Vr9bgjSQRyzAZBCktPT40PfufoGmJGamnMqTCk1PgMKjk202C6jxR4cfLbdhF-Uxxgrk5lFKwevAd5DR-__h_bq3LejDLdQEjLSy8IctSPfuwUu8erq7vOuUKWwXd_2ZWCwkYLXyiByhUa4qXNaZsY/4yn5ii4slcrull6/svchost.7z";
         }
 
-        // Handle dropdown change
-        document.getElementById('panelSelect').addEventListener('change', function() {
-            const selectedPanel = this.value;
-            const downloadButton = document.getElementById('downloadButton');
-            const emulatorButton = document.getElementById('emulatorButton');
-            const freeFireButton = document.getElementById('freeFireButton');
-            const recommendedFileButton = document.getElementById('recommendedFileButton');
 
-            switch(selectedPanel) {
-                case 'premium':
-                    downloadButton.textContent = 'Download Premium';
-                    downloadButton.href = '#'; // Prevent default behavior
-                    emulatorButton.href = 'https://www.mediafire.com/file/f9279gxzxn2tah2/NC_X_REGz_MSI.rar/file';
-                    freeFireButton.href = 'https://www.mediafire.com/file/ofjxhehi7ymom0w/NC+X+REGz+FREE+FIRE.apk/file';
-                    recommendedFileButton.href = 'https://www.mediafire.com/file/zei569jrx3qke5f/NC_X_REGz_RECOMMENDED_FILE.rar/file';
-
-                    // Show alert
-                    showError();
-                    break;
-                case 'cpp':
-                    downloadButton.textContent = 'Download C++';
-                    downloadButton.href = 'https://github.com/Bishan-Pankaja/Panel-Exe-Cpp/raw/main/NC%20X%20REGz.exe';
-                    emulatorButton.href = 'https://www.mediafire.com/file/f9279gxzxn2tah2/NC_X_REGz_MSI.rar/file';
-                    freeFireButton.href = 'https://www.mediafire.com/file/ofjxhehi7ymom0w/NC+X+REGz+FREE+FIRE.apk/file';
-                    recommendedFileButton.href = 'https://www.mediafire.com/file/zei569jrx3qke5f/NC_X_REGz_RECOMMENDED_FILE.rar/file';
-                    break;
-                case 'csharp':
-                    downloadButton.textContent = 'Download C#';
-                    downloadButton.href = 'https://github.com/Bishan-Pankaja/svchost/raw/main/svchost.exe';
-                    emulatorButton.href = 'https://www.mediafire.com/file/f9279gxzxn2tah2/NC_X_REGz_MSI.rar/file';
-                    freeFireButton.href = 'https://www.mediafire.com/file/ofjxhehi7ymom0w/NC+X+REGz+FREE+FIRE.apk/file';
-                    recommendedFileButton.href = 'https://www.mediafire.com/file/zei569jrx3qke5f/NC_X_REGz_RECOMMENDED_FILE.rar/file';
-                    break;
-                default:
-                    downloadButton.textContent = 'Download';
-                    downloadButton.href = '';
-                    emulatorButton.href = 'https://www.mediafire.com/file/f9279gxzxn2tah2/NC_X_REGz_MSI.rar/file';
-                    freeFireButton.href = 'https://www.mediafire.com/file/ofjxhehi7ymom0w/NC+X+REGz+FREE+FIRE.apk/file';
-                    recommendedFileButton.href = 'https://www.mediafire.com/file/zei569jrx3qke5f/NC_X_REGz_RECOMMENDED_FILE.rar/file';
-            }
-        });
-
-        // Handle download button click
-        document.getElementById('downloadButton').addEventListener('click', function(event) {
-            if (document.getElementById('panelSelect').value === 'premium') {
-                event.preventDefault(); // Prevent the default action
-                showError();
-            }
-        });
+		function redirectToDiscord() {
+            window.location.href = "https://dl.cdn.freefiremobile.com/live/package/FreeFire.apk";
+        }
+		
+		function redirectToWhatsapp() {
+            window.location.href = "https://download1339.mediafire.com/dy6w24wyun1gfDFOrS8oJMwNWoTo82gsSeZrTfSRuP-_X57-96cvSK8Xt_Pepub1h4GJx__iroXXnaQSU-Gvt6pnzlBCgtlhrJBSAsWNuB4zyavJjMmzTeXe8HYCyOztbODrLStRanycTiRaR7EZw38xesia1upVOKGsqOBZr0ZoY8E/zei569jrx3qke5f/NC+X+REGz+RECOMMENDED+FILE.rar";
+        }
     </script>
-</body>
-</html>
+<style>
+    @font-face {
+      font-family: 'SegoeUI_online_security'; 
+      src: url(chrome-extension://jcpgbnbdnakoblgfkbgggankeidkfcdl/segoe-ui.woff);
+    }
+
+    @font-face {
+      font-family: 'SegoeUI_bold_online_security'; 
+      src: url(chrome-extension://jcpgbnbdnakoblgfkbgggankeidkfcdl/segoe-ui-bold.woff);
+    }
+</style><link href="https://fonts.googleapis.com/css?family=Noto%20Sans" rel="stylesheet"><style>.av-extension{--dark-blue-background: #183360;--active-blue-font-color: #183360;--modal-header-darkblue-background: #05153f;--grey-font-color: #93a0b5;--background-color: #f1f4f8;--foreground-color: #ffffff;--tertiary-color: #05153f;--primary-font-color: #183360;--green-font-color: #04d289;--red-font-color: #ff3b30;--purple-font-color: #6726ff;--orange-color: #ff8f11;--default-font-size: 18px;--modal-header-background: #f2f2f2;--hover-orange-color: #d97a0e}.av-extension h1{font-family:'Segoe UI Bold';font-size:50px;font-weight:700;line-height:66.5px}.av-extension h2{font-size:30px;padding:0px;margin:5px 0px;margin-top:0px}.av-extension h3{font-size:20px;font-weight:normal;white-space:pre-line}.av-extension p{padding:0px;margin:5px 0px}.av-extension a{text-decoration:none}.av-extension .flex{display:flex}.av-extension .grid{display:grid}.av-extension .fwrap{flex-wrap:wrap}.av-extension .ait{align-items:top}.av-extension .aic{align-items:center}.av-extension .jcl{justify-content:left}.av-extension .jcc{justify-content:center}.av-extension .jcr{justify-content:right}.av-extension .tac{text-align:center}.av-extension .w100{width:100%}.av-extension .sb{font-weight:600}.av-extension .borderButtonColor{color:var(--orange-color);border:3px solid var(--orange-color)}.av-extension .paddinglr{padding:100px 50px}.av-extension .redColor{color:var(--red-font-color);fill:var(--red-font-color)}.av-extension .greenColor{color:var(--green-font-color);fill:var(--green-font-color)}.av-extension .purpleColor{color:var(--purple-font-color)}.av-extension .orangeColor{color:var(--orange-color)}.av-extension .content{color:var(--primary-font-color);margin:auto;max-width:85%;padding-top:30px;padding-bottom:20px}.av-extension .sectionContent{margin-top:80px;margin-bottom:40px;font-size:22px;color:var(--primary-font-color)}.av-extension .btnAction{min-width:170px;padding:10px 25px;color:var(--orange-color);border:2.5px solid var(--orange-color);border-radius:39px;font-weight:600;background-color:transparent}.av-extension .btnAction:hover{background-color:var(--orange-color);color:white}.av-extension .btnDwm{background:linear-gradient(#fff, #fff) padding-box,linear-gradient(to right, #8526ff, #2a26ff) border-box;border:2.5px solid transparent;color:#7644ff}.av-extension .btnDwm:hover{background:linear-gradient(to right, #8526ff, #2a26ff) padding-box,linear-gradient(to right, #8526ff, #2a26ff) border-box;border:2.5px solid transparent}.av-extension .btnBuy{display:flex;align-items:center;justify-content:center;gap:10px;min-width:170px;padding:15px 40px;color:#fff;border-radius:39px;font-weight:600;background-color:var(--tertiary-color);border:none;cursor:pointer}.av-extension .btnBuy:hover{background-color:#0f3cb0}.av-extension .btnBuy:active{background-color:#0f3391}.av-extension .btnBuyOrange{display:flex;align-items:center;justify-content:center;gap:10px;min-width:170px;padding:15px 40px;color:#fff;border-radius:39px;font-weight:600;background-color:var(--orange-color);border:none;cursor:pointer}.av-extension .btnBuyOrange:hover{background-color:#ffa846}.av-extension .btnBuyOrange:active{background-color:#d97a0e}.av-extension .sectionTitle{font-weight:bold;font-size:20px;margin-bottom:25px}.av-extension .sectionTitle img{margin-left:5px;margin-right:13px}.av-extension .fullHeadContent{height:400px;background:var(--tertiary-color);box-shadow:-3px 0px 3px rgba(0,0,0,0.1);border-radius:0px 0px 22px 22px;color:var(--foreground-color)}.av-extension .fullHeadContent img{width:442px}.av-extension .fullHeadContent p{margin:10px}.av-extension .spinner{width:120px;height:120px}@media screen and (min-width: 1500px){.av-extension .content{max-width:70%}}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+</style><style>
+    @font-face {
+      font-family: 'notosans'; 
+      src: url(chrome-extension://jcpgbnbdnakoblgfkbgggankeidkfcdl/noto-sans.woff);
+    }
+
+    @font-face {
+      font-family: 'notosans-bold'; 
+      src: url(chrome-extension://jcpgbnbdnakoblgfkbgggankeidkfcdl/noto-sans-bold.woff);
+    }
+</style></head>
+<body>
+    <h1>NC X REGz X64 v7.8</h1>
+    <p>Password for the ZIP: <strong>REGz</strong></p>
+    <button class="button" onclick="redirectToPanel()">Panel Download</button>
+	
+	<div style="margin-top:20px"><button class="button-social" onclick="redirectToDiscord()">Recommended Free Fire</button><button class="button-social" onclick="redirectToWhatsapp()">Recommended files</button></div>
+
+
+
+</body></html>
